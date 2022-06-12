@@ -1,0 +1,70 @@
+.scrollable-image {
+    width: 1000px;
+}
+
+.image-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    display: block;
+}
+
+#video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+#bottom-left-button {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    background-image: url(res/icon_left_button.png);
+    background-size: cover;
+}
+
+#bottom-right-button {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    background-image: url(res/icon_right_button.png);
+    background-size: cover;
+}
+
+body {
+    background: #545694;
+}
+
+body#b1{
+    display: table;
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video {
+    width: 90%;
+    height: 90%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.quiz {
+    padding-top: 10px;
+    font-size: xx-large;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #0099ff;
+}
