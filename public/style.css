@@ -54,7 +54,7 @@ body#b1{
 
 .video {
     width: 90%;
-    height: 90%;
+    height: 80%;
 }
 
 html {
@@ -62,7 +62,20 @@ html {
     width: 100%;
 }
 
-.quiz {
+.quiz-left {
+    padding-top: 10px;
+    font-size: xx-large;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #0099ff;
+    position: absolute;
+    bottom: 16px;
+    left: 86px;
+}
+
+.quiz-right {
+    position: absolute;
+    bottom: 16px;
+    right: 86px;
     padding-top: 10px;
     font-size: xx-large;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
