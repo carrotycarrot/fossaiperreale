@@ -19,26 +19,80 @@
     flex-direction: column;
 }
 
-#bottom-left-button {
-    position: absolute;
-    bottom: 16px;
-    left: 16px;
-    width: 100px;
-    height: 100px;
-    opacity: 0.5;
-    background-image: url(res/icon_left_button.png);
-    background-size: cover;
-}
-
-#bottom-right-button {
+.bottom-right-button {
     position: absolute;
     bottom: 16px;
     right: 16px;
     width: 100px;
     height: 100px;
     opacity: 0.5;
-    background-image: url(res/icon_right_button.png);
     background-size: cover;
+}
+
+.bottom-center-button {
+    position: absolute;
+    bottom: 16px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.bottom-left-button {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    background-size: cover;
+}
+
+#bottom-left-button-index {
+    background-image: url(res/icon_left_button.png);
+}
+
+#bottom-left-button-video {
+    display: flex;
+    align-items: flex-start;
+    width: 268px;
+    height: 82px;
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url(res/icona.quiz.png);
+}
+#bottom-center-button-video {
+    display: flex;
+    align-items: center;
+    width: 268px;
+    height: 82px;
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url(res/icona.trailer.png);
+}
+#bottom-right-button-video {
+    display: flex;
+    align-items: flex-end;
+    width: 268px;
+    height: 82px;
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url(res/icona.vr.png);
+}
+
+#bottom-right-button-index {
+    background-image: url(res/icon_right_button.png);
+}
+
+#buttons-container {
+    height: 82px;
+    width: 80%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 body {
@@ -81,3 +135,4 @@ html {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #0099ff;
 }
+
